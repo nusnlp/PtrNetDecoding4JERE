@@ -16,7 +16,7 @@ https://drive.google.com/drive/folders/1RPD9kuHUHp4O3gQLLD1CgDPigAlRiR7L?usp=sha
 
 ### How to run ###
 
-Word Decoding Model
+#### Word Decoding Model ####
 
 python3.5 word_decoder.py gpu_id random_seed source_data_dir target_data_dit train/test
 
@@ -24,7 +24,7 @@ python3.5 word_decoder.py 0 1023 NYT29/ NYT29/word_decode_model train
 
 python3.5 word_decoder.py 0 1023 NYT29/ NYT29/word_decode_model test
 
-Pointer Network-based Decoding Model
+#### Pointer Network-based Decoding Model #### 
 
 python3.5 ptrnet_decoder.py gpu_id random_seed source_data_dir target_data_dit train/test
 
