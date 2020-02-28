@@ -1,0 +1,10 @@
+Following is the basic data processing steps for this code:
+(1) There are four files .sent, .tup, .pointer, and .dep for train, dev, and test data.
+(2) .sent file contains the sentences line by line.
+(3) .tup file contains the relation tuples separated the special separatators as shown in Table 1 of our AAAI20 paper for word level decoding. Each line in this file corresponds to the line of .sent file.
+(4) .pointer file contains the relation tuples as shown in Table 1 of our AAAI20 for pointer level decoding. Each line in this file corresponds to the line of .sent file.
+(5) .dep file contains the dependency information (adj_mat) of each sentence. adj_mat is dependency parse tree information of the sentences obtained using spaCy. Each inner array represents the dependency distance of the corresponding word from all other words in the sentence. This file is not used for our final experiments. So it can be ignored and the code where this file is used can be commented. 
+(6) relations.txt contains all the relations (one at each line).
+(7) w2v.txt is the output of Word2Vec. It contains the word vectors of dimension 300.
+
+Please see the NYT24/NYT29 data files for more information.
