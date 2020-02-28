@@ -34,6 +34,8 @@ python3.5 ptrnet_decoder.py 0 1023 NYT29/ NYT29/ptrnet_decode_model test
 
 ### Publication ###
 
+https://arxiv.org/abs/1911.09886
+
 If you use the source code or models from this work, please cite our paper:
 
 ```
